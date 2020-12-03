@@ -1,13 +1,5 @@
 .navbar {
-    background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png);
-    background-repeat: repeat;
-}
-nav .navbar-nav li a{
-    color: rgb(0, 0, 0) !important;
-}
-
-nav .navbar-nav li .current{
-    text-decoration: underline !important;
+    background-color: white;
 }
 
 .cta-link:hover {
@@ -16,7 +8,8 @@ nav .navbar-nav li .current{
 
 
 .bannersection {
-    background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png);
+    /* background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png); */
+    background-color: white;
     background-repeat: repeat;
     padding-top: 6rem;
     padding-bottom: 1rem;
@@ -24,16 +17,16 @@ nav .navbar-nav li .current{
 }
 
 .headertitle {
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 600;
     
 
 }
 
 .underthefoldbanner {
     font-size: 50px;
-    font-weight: 250;
-    color: rgb(58, 58, 58);
+    font-weight: 400;
+    color: rgb(122, 122, 122);
 }
 
 .sectionbanner {
@@ -53,8 +46,8 @@ nav .navbar-nav li .current{
 }
 
 .sectionheader {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 45px;
+    font-weight: 600;
 
 }
 
