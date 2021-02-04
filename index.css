@@ -1,15 +1,53 @@
-.navbar {
-    background-color: white;
+body {
+  background-color:  #f5f3f1;
+  /*
+  lighter: FFFEFB
+  darker: F5F2F0
+  */
 }
+
+/* .navbar {
+    background-color: white;
+} */
+
+.rightcol {
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.videocontainer {
+  float: right;
+  width: 90%;
+}
+
+.modal-dialog {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
 
 .cta-link:hover {
   text-decoration: underline;
 }
 
-
 .bannersection {
     /* background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png); */
-    background-color: white;
+
     background-repeat: repeat;
     padding-top: 6rem;
     padding-bottom: 1rem;
@@ -17,10 +55,8 @@
 }
 
 .headertitle {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
-    
-
 }
 
 .underthefoldbanner {
@@ -34,10 +70,6 @@
     font-weight: 250;
 }
 
-.faqbanner {
-  font-size: 50px;
-  font-weight: 300;
-}
 
 .underthefoldbanner strong {
 
@@ -51,78 +83,23 @@
 
 }
 
-.section-bg-dark {
-    color: rgb(248, 248, 248);
-    background-image: url(https://placenote.com/tempdabblesite/media/walltexture_grey.png);
 
-}
 
-.section-bg-light {
-  background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png);
-  color: rgb(80, 80, 80);
-
-}
-
-.section-bg-white {
-    background-color: white;
-}
 
 .spacer {
     height: 50px;
 }
 
-.faqelement {
-  padding-top: 1rem;
-}
-
-.wrap-browser-iframes {
-    padding: 0;
-    margin: -4rem 0;
-    overflow-x: hidden;
-    transform: translateZ(0);
-  }
   
-  @media only screen and (max-width: 480px) {
-    .section-browser-iframes {
-      transform: scale(.75);
+  @media only screen and (max-width: 1000px) {
+    .rightcol {
+      margin-top: 40px;
+    }
+
+    .videocontainer {
+      width: 100%;
     }
   }
-  
-  .section-browser-iframes {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: auto;
-    grid-gap: 2rem;
-    position: relative;
-    animation: browser 60s linear infinite;
-    margin-left: -72px;
-  }
 
-  @media (prefers-reduced-motion) {
-    .section-browser-iframes {
-      animation: none;
-    }
-  }
-  
-  @keyframes browser {
-    0% {
-      margin-left: -80px;
-    }
-  
-    100% {
-      margin-left: -1874px;
-    }
-  }
-  
-  .section-browser-iframes img {
-    width: auto;
-  }
 
-  .slideshowimage {
-      border-radius: 10px;
-      box-shadow: 2px 2px 6px #000000;
-  }
 
-  .footer {
-        background-image: url(https://placenote.com/tempdabblesite/media/walltexture_grey.png);
-  }
