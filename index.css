@@ -10,13 +10,11 @@ body {
     background-color: white;
 } */
 .leftcol {
-  position: absolute;
 }
 
 .rightcol {
   margin-left: 0px;
   z-index: -1;
-  position: absolute;
   right: 10px;
   bottom: 10px;
 }
@@ -33,7 +31,6 @@ body {
 
 
 .videocontainer {
-  float: right;
   width: 90%;
 }
 
@@ -108,14 +105,20 @@ opacity:1;
 }
 
   
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 740px) {
+
     .rightcol {
-      margin-top: 40px;
+      margin-top: 50px;
     }
 
     .videocontainer {
       width: 100%;
     }
+
+    .headertitle {
+      font-size: 40px;
+      font-weight: 600;
+  }
   }
 
 
