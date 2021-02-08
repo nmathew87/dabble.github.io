@@ -1,14 +1,22 @@
 body {
   background-color:  #f5f3f1;
+  position: relative;
   /*
   lighter: FFFEFB
   darker: F5F2F0
   */
 }
 
-/* .navbar {
-    background-color: white;
-} */
+
+.navbar {
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+}
+
 .leftcol {
 }
 
@@ -22,6 +30,7 @@ body {
 .ctabutton {
   background-color: blueviolet;
   color: white;
+  box-shadow: 0px 0px 3px 3px rgba(137, 43, 226, 0.247)
 }
 
 .ctabutton:hover {
@@ -97,7 +106,23 @@ opacity:1;
 
 }
 
+.pagecontainer {
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
 
+#content {
+  overflow: hidden;
+  position: relative;
+}
+
+.particle {
+  pointer-events: none;
+  position: absolute;
+  will-change: transform;
+}
 
 
 .spacer {
