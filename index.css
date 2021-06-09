@@ -1,6 +1,7 @@
 body {
-  background-color:  #F9F6F4;
+  background-color:  #ffffff;
   position: relative;
+  font-family: 'Roboto', sans-serif;
   /*
   lighter: FFFEFB
   darker: F5F2F0
@@ -11,6 +12,10 @@ body {
 .navbar {
     max-width: 1200px; 
     margin: auto;
+}
+
+.nav-item a {
+  margin-right: 10px;
 }
 
 .nav-item a:hover {
@@ -27,7 +32,6 @@ body {
 .ctabutton {
   background-color: blueviolet;
   color: white;
-  box-shadow: 0px 0px 3px 3px rgba(137, 43, 226, 0.247)
 }
 
 .ctabutton:hover {
@@ -35,6 +39,15 @@ body {
   color: white;
 }
 
+.loginbutton {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.loginbutton:hover {
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
 
 .videocontainer {
   width: 90%;
@@ -66,16 +79,17 @@ opacity:1;
 }
 
 .bannersection {
-    /* background-image: url(https://placenote.com/tempdabblesite/media/walltexture_white.png); */
-
+    background-image: url(images/landingpagebg.jpeg);
+    height: 100vh;
     background-repeat: repeat;
+    background-position: center;
     padding-top: 6rem;
     padding-bottom: 1rem;
     
 }
 
 .headertitle {
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 600;
 }
 
