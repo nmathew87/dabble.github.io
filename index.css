@@ -79,9 +79,10 @@ opacity:1;
 }
 
 .bannersection {
-    background-image: url(images/landingpagebg.jpeg);
-    height: 100vh;
-    background-repeat: repeat;
+    background-image: url(images/backgroundgrid.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
     background-position: center;
     padding-top: 6rem;
     padding-bottom: 1rem;
@@ -165,9 +166,16 @@ opacity:1;
     }
 
     .headertitle {
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 600;
-  }
+    }
+
+    .bannersection {
+      background-image: url(images/backgroundimagesmall.jpeg);
+      background-size: contain;
+      background-position: bottom;
+    }
+
   }
 
 
