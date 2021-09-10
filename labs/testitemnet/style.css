@@ -1,0 +1,5 @@
+#resultimage {
+    width: 300px;
+    border-radius: 5px;
+    object-fit: contain;
+}
